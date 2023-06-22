@@ -11,6 +11,9 @@
 		694CFDCB2A443EC6005AF8DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDCA2A443EC6005AF8DC /* ContentView.swift */; };
 		694CFDCD2A443EC7005AF8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CFDCC2A443EC7005AF8DC /* Assets.xcassets */; };
 		694CFDD02A443EC7005AF8DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CFDCF2A443EC7005AF8DC /* Preview Assets.xcassets */; };
+		694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 694CFDD72A443F48005AF8DC /* AppCenterAnalytics */; };
+		694CFDDA2A443F48005AF8DC /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 694CFDD92A443F48005AF8DC /* AppCenterCrashes */; };
+		694CFDDC2A443F48005AF8DC /* AppCenterDistribute in Frameworks */ = {isa = PBXBuildFile; productRef = 694CFDDB2A443F48005AF8DC /* AppCenterDistribute */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */,
+				694CFDDA2A443F48005AF8DC /* AppCenterCrashes in Frameworks */,
+				694CFDDC2A443F48005AF8DC /* AppCenterDistribute in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,11 @@
 			dependencies = (
 			);
 			name = BugFixAppCenter;
+			packageProductDependencies = (
+				694CFDD72A443F48005AF8DC /* AppCenterAnalytics */,
+				694CFDD92A443F48005AF8DC /* AppCenterCrashes */,
+				694CFDDB2A443F48005AF8DC /* AppCenterDistribute */,
+			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 694CFDBC2A443EC6005AF8DC;
+			packageReferences = (
+				694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */,
+			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +353,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		694CFDD72A443F48005AF8DC /* AppCenterAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterAnalytics;
+		};
+		694CFDD92A443F48005AF8DC /* AppCenterCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterCrashes;
+		};
+		694CFDDB2A443F48005AF8DC /* AppCenterDistribute */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterDistribute;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 694CFDBD2A443EC6005AF8DC /* Project object */;
 }
