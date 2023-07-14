@@ -10,6 +10,7 @@
 		69088E762A613D5C00BC7CD7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 69088E752A613D5C00BC7CD7 /* Kingfisher */; };
 		69088E792A61401C00BC7CD7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 69088E782A61401C00BC7CD7 /* GoogleSignIn */; };
 		69088E7B2A61401C00BC7CD7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 69088E7A2A61401C00BC7CD7 /* GoogleSignInSwift */; };
+		69088E812A6141C100BC7CD7 /* NYTPhotoViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 69088E802A6141C100BC7CD7 /* NYTPhotoViewer */; };
 		694CFDC92A443EC6005AF8DC /* BugFixAppCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDC82A443EC6005AF8DC /* BugFixAppCenterApp.swift */; };
 		694CFDCB2A443EC6005AF8DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDCA2A443EC6005AF8DC /* ContentView.swift */; };
 		694CFDCD2A443EC7005AF8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CFDCC2A443EC7005AF8DC /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 				6958717E2A6132A300D304CD /* Tabman in Frameworks */,
 				694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */,
 				69088E7B2A61401C00BC7CD7 /* GoogleSignInSwift in Frameworks */,
+				69088E812A6141C100BC7CD7 /* NYTPhotoViewer in Frameworks */,
 				694CFDDA2A443F48005AF8DC /* AppCenterCrashes in Frameworks */,
 				6958717B2A61319500D304CD /* Pulsator in Frameworks */,
 				694CFDDC2A443F48005AF8DC /* AppCenterDistribute in Frameworks */,
@@ -108,6 +110,7 @@
 				69088E752A613D5C00BC7CD7 /* Kingfisher */,
 				69088E782A61401C00BC7CD7 /* GoogleSignIn */,
 				69088E7A2A61401C00BC7CD7 /* GoogleSignInSwift */,
+				69088E802A6141C100BC7CD7 /* NYTPhotoViewer */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -143,6 +146,7 @@
 				6958717C2A6132A300D304CD /* XCRemoteSwiftPackageReference "Tabman" */,
 				69088E742A613D5C00BC7CD7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				69088E772A61401C00BC7CD7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				69088E7F2A6141C100BC7CD7 /* XCRemoteSwiftPackageReference "NYTPhotoViewer" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -390,6 +394,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		69088E7F2A6141C100BC7CD7 /* XCRemoteSwiftPackageReference "NYTPhotoViewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nytimes/NYTPhotoViewer.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.6;
+			};
+		};
 		694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
@@ -431,6 +443,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 69088E772A61401C00BC7CD7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		69088E802A6141C100BC7CD7 /* NYTPhotoViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088E7F2A6141C100BC7CD7 /* XCRemoteSwiftPackageReference "NYTPhotoViewer" */;
+			productName = NYTPhotoViewer;
 		};
 		694CFDD72A443F48005AF8DC /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
