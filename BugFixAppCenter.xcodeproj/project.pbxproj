@@ -12,6 +12,16 @@
 		69088E7B2A61401C00BC7CD7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 69088E7A2A61401C00BC7CD7 /* GoogleSignInSwift */; };
 		69088E812A6141C100BC7CD7 /* NYTPhotoViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 69088E802A6141C100BC7CD7 /* NYTPhotoViewer */; };
 		69088EB72A61747F00BC7CD7 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EB62A61747F00BC7CD7 /* DGCharts */; };
+		69088EBA2A617D2700BC7CD7 /* AirshipAccengage in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EB92A617D2700BC7CD7 /* AirshipAccengage */; };
+		69088EBC2A617D2700BC7CD7 /* AirshipAutomation in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EBB2A617D2700BC7CD7 /* AirshipAutomation */; };
+		69088EBE2A617D2700BC7CD7 /* AirshipChat in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EBD2A617D2700BC7CD7 /* AirshipChat */; };
+		69088EC02A617D2700BC7CD7 /* AirshipCore in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EBF2A617D2700BC7CD7 /* AirshipCore */; };
+		69088EC22A617D2700BC7CD7 /* AirshipExtendedActions in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EC12A617D2700BC7CD7 /* AirshipExtendedActions */; };
+		69088EC42A617D2700BC7CD7 /* AirshipLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EC32A617D2700BC7CD7 /* AirshipLocation */; };
+		69088EC62A617D2700BC7CD7 /* AirshipMessageCenter in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EC52A617D2700BC7CD7 /* AirshipMessageCenter */; };
+		69088EC82A617D2700BC7CD7 /* AirshipNotificationContentExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EC72A617D2700BC7CD7 /* AirshipNotificationContentExtension */; };
+		69088ECA2A617D2700BC7CD7 /* AirshipNotificationServiceExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EC92A617D2700BC7CD7 /* AirshipNotificationServiceExtension */; };
+		69088ECC2A617D2700BC7CD7 /* AirshipPreferenceCenter in Frameworks */ = {isa = PBXBuildFile; productRef = 69088ECB2A617D2700BC7CD7 /* AirshipPreferenceCenter */; };
 		694CFDC92A443EC6005AF8DC /* BugFixAppCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDC82A443EC6005AF8DC /* BugFixAppCenterApp.swift */; };
 		694CFDCB2A443EC6005AF8DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDCA2A443EC6005AF8DC /* ContentView.swift */; };
 		694CFDCD2A443EC7005AF8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CFDCC2A443EC7005AF8DC /* Assets.xcassets */; };
@@ -38,10 +48,20 @@
 			files = (
 				69088E762A613D5C00BC7CD7 /* Kingfisher in Frameworks */,
 				6958717E2A6132A300D304CD /* Tabman in Frameworks */,
+				69088EC02A617D2700BC7CD7 /* AirshipCore in Frameworks */,
+				69088EC22A617D2700BC7CD7 /* AirshipExtendedActions in Frameworks */,
+				69088ECA2A617D2700BC7CD7 /* AirshipNotificationServiceExtension in Frameworks */,
+				69088EBC2A617D2700BC7CD7 /* AirshipAutomation in Frameworks */,
 				69088EB72A61747F00BC7CD7 /* DGCharts in Frameworks */,
+				69088EBE2A617D2700BC7CD7 /* AirshipChat in Frameworks */,
+				69088EC62A617D2700BC7CD7 /* AirshipMessageCenter in Frameworks */,
 				694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */,
+				69088EC42A617D2700BC7CD7 /* AirshipLocation in Frameworks */,
 				69088E7B2A61401C00BC7CD7 /* GoogleSignInSwift in Frameworks */,
+				69088EBA2A617D2700BC7CD7 /* AirshipAccengage in Frameworks */,
+				69088EC82A617D2700BC7CD7 /* AirshipNotificationContentExtension in Frameworks */,
 				69088E812A6141C100BC7CD7 /* NYTPhotoViewer in Frameworks */,
+				69088ECC2A617D2700BC7CD7 /* AirshipPreferenceCenter in Frameworks */,
 				694CFDDA2A443F48005AF8DC /* AppCenterCrashes in Frameworks */,
 				6958717B2A61319500D304CD /* Pulsator in Frameworks */,
 				694CFDDC2A443F48005AF8DC /* AppCenterDistribute in Frameworks */,
@@ -114,6 +134,16 @@
 				69088E7A2A61401C00BC7CD7 /* GoogleSignInSwift */,
 				69088E802A6141C100BC7CD7 /* NYTPhotoViewer */,
 				69088EB62A61747F00BC7CD7 /* DGCharts */,
+				69088EB92A617D2700BC7CD7 /* AirshipAccengage */,
+				69088EBB2A617D2700BC7CD7 /* AirshipAutomation */,
+				69088EBD2A617D2700BC7CD7 /* AirshipChat */,
+				69088EBF2A617D2700BC7CD7 /* AirshipCore */,
+				69088EC12A617D2700BC7CD7 /* AirshipExtendedActions */,
+				69088EC32A617D2700BC7CD7 /* AirshipLocation */,
+				69088EC52A617D2700BC7CD7 /* AirshipMessageCenter */,
+				69088EC72A617D2700BC7CD7 /* AirshipNotificationContentExtension */,
+				69088EC92A617D2700BC7CD7 /* AirshipNotificationServiceExtension */,
+				69088ECB2A617D2700BC7CD7 /* AirshipPreferenceCenter */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -151,6 +181,7 @@
 				69088E772A61401C00BC7CD7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				69088E7F2A6141C100BC7CD7 /* XCRemoteSwiftPackageReference "NYTPhotoViewer" */,
 				69088EB52A61747F00BC7CD7 /* XCRemoteSwiftPackageReference "Charts" */,
+				69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -414,6 +445,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/urbanairship/ios-library.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 16.0.0;
+			};
+		};
 		694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
@@ -465,6 +504,56 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 69088EB52A61747F00BC7CD7 /* XCRemoteSwiftPackageReference "Charts" */;
 			productName = DGCharts;
+		};
+		69088EB92A617D2700BC7CD7 /* AirshipAccengage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipAccengage;
+		};
+		69088EBB2A617D2700BC7CD7 /* AirshipAutomation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipAutomation;
+		};
+		69088EBD2A617D2700BC7CD7 /* AirshipChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipChat;
+		};
+		69088EBF2A617D2700BC7CD7 /* AirshipCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipCore;
+		};
+		69088EC12A617D2700BC7CD7 /* AirshipExtendedActions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipExtendedActions;
+		};
+		69088EC32A617D2700BC7CD7 /* AirshipLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipLocation;
+		};
+		69088EC52A617D2700BC7CD7 /* AirshipMessageCenter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipMessageCenter;
+		};
+		69088EC72A617D2700BC7CD7 /* AirshipNotificationContentExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipNotificationContentExtension;
+		};
+		69088EC92A617D2700BC7CD7 /* AirshipNotificationServiceExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipNotificationServiceExtension;
+		};
+		69088ECB2A617D2700BC7CD7 /* AirshipPreferenceCenter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */;
+			productName = AirshipPreferenceCenter;
 		};
 		694CFDD72A443F48005AF8DC /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
