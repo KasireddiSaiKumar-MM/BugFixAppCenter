@@ -14,8 +14,8 @@
 		694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 694CFDD72A443F48005AF8DC /* AppCenterAnalytics */; };
 		694CFDDA2A443F48005AF8DC /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 694CFDD92A443F48005AF8DC /* AppCenterCrashes */; };
 		694CFDDC2A443F48005AF8DC /* AppCenterDistribute in Frameworks */ = {isa = PBXBuildFile; productRef = 694CFDDB2A443F48005AF8DC /* AppCenterDistribute */; };
-		695871712A612D0000D304CD /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 695871702A612D0000D304CD /* DGCharts */; };
-		695871732A612D0000D304CD /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 695871722A612D0000D304CD /* DGChartsDynamic */; };
+		695871762A612EFF00D304CD /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 695871752A612EFF00D304CD /* Charts */; };
+		695871782A612EFF00D304CD /* ChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 695871772A612EFF00D304CD /* ChartsDynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +31,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				695871712A612D0000D304CD /* DGCharts in Frameworks */,
 				694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */,
+				695871782A612EFF00D304CD /* ChartsDynamic in Frameworks */,
 				694CFDDA2A443F48005AF8DC /* AppCenterCrashes in Frameworks */,
-				695871732A612D0000D304CD /* DGChartsDynamic in Frameworks */,
 				694CFDDC2A443F48005AF8DC /* AppCenterDistribute in Frameworks */,
+				695871762A612EFF00D304CD /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +97,8 @@
 				694CFDD72A443F48005AF8DC /* AppCenterAnalytics */,
 				694CFDD92A443F48005AF8DC /* AppCenterCrashes */,
 				694CFDDB2A443F48005AF8DC /* AppCenterDistribute */,
-				695871702A612D0000D304CD /* DGCharts */,
-				695871722A612D0000D304CD /* DGChartsDynamic */,
+				695871752A612EFF00D304CD /* Charts */,
+				695871772A612EFF00D304CD /* ChartsDynamic */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -130,7 +130,7 @@
 			mainGroup = 694CFDBC2A443EC6005AF8DC;
 			packageReferences = (
 				694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */,
-				6958716F2A612D0000D304CD /* XCRemoteSwiftPackageReference "Charts" */,
+				695871742A612EFF00D304CD /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -370,12 +370,12 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		6958716F2A612D0000D304CD /* XCRemoteSwiftPackageReference "Charts" */ = {
+		695871742A612EFF00D304CD /* XCRemoteSwiftPackageReference "Charts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/danielgindi/Charts.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				minimumVersion = 4.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -396,15 +396,15 @@
 			package = 694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterDistribute;
 		};
-		695871702A612D0000D304CD /* DGCharts */ = {
+		695871752A612EFF00D304CD /* Charts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6958716F2A612D0000D304CD /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = DGCharts;
+			package = 695871742A612EFF00D304CD /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
 		};
-		695871722A612D0000D304CD /* DGChartsDynamic */ = {
+		695871772A612EFF00D304CD /* ChartsDynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6958716F2A612D0000D304CD /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = DGChartsDynamic;
+			package = 695871742A612EFF00D304CD /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = ChartsDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
