@@ -23,6 +23,7 @@
 		69088ECA2A617D2700BC7CD7 /* AirshipNotificationServiceExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 69088EC92A617D2700BC7CD7 /* AirshipNotificationServiceExtension */; };
 		69088ECC2A617D2700BC7CD7 /* AirshipPreferenceCenter in Frameworks */ = {isa = PBXBuildFile; productRef = 69088ECB2A617D2700BC7CD7 /* AirshipPreferenceCenter */; };
 		69088ECF2A6180E800BC7CD7 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 69088ECE2A6180E800BC7CD7 /* AlamofireImage */; };
+		69088ED22A6185A800BC7CD7 /* CVCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 69088ED12A6185A800BC7CD7 /* CVCalendar */; };
 		694CFDC92A443EC6005AF8DC /* BugFixAppCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDC82A443EC6005AF8DC /* BugFixAppCenterApp.swift */; };
 		694CFDCB2A443EC6005AF8DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDCA2A443EC6005AF8DC /* ContentView.swift */; };
 		694CFDCD2A443EC7005AF8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CFDCC2A443EC7005AF8DC /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69088E762A613D5C00BC7CD7 /* Kingfisher in Frameworks */,
+				69088ED22A6185A800BC7CD7 /* CVCalendar in Frameworks */,
 				6958717E2A6132A300D304CD /* Tabman in Frameworks */,
 				69088EC02A617D2700BC7CD7 /* AirshipCore in Frameworks */,
 				69088EC22A617D2700BC7CD7 /* AirshipExtendedActions in Frameworks */,
@@ -147,6 +149,7 @@
 				69088EC92A617D2700BC7CD7 /* AirshipNotificationServiceExtension */,
 				69088ECB2A617D2700BC7CD7 /* AirshipPreferenceCenter */,
 				69088ECE2A6180E800BC7CD7 /* AlamofireImage */,
+				69088ED12A6185A800BC7CD7 /* CVCalendar */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -186,6 +189,7 @@
 				69088EB52A61747F00BC7CD7 /* XCRemoteSwiftPackageReference "Charts" */,
 				69088EB82A617D2700BC7CD7 /* XCRemoteSwiftPackageReference "ios-library" */,
 				69088ECD2A6180E800BC7CD7 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				69088ED02A6185A800BC7CD7 /* XCRemoteSwiftPackageReference "CVCalendar" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -465,6 +469,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		69088ED02A6185A800BC7CD7 /* XCRemoteSwiftPackageReference "CVCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CVCalendar/CVCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
@@ -571,6 +583,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 69088ECD2A6180E800BC7CD7 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
+		};
+		69088ED12A6185A800BC7CD7 /* CVCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088ED02A6185A800BC7CD7 /* XCRemoteSwiftPackageReference "CVCalendar" */;
+			productName = CVCalendar;
 		};
 		694CFDD72A443F48005AF8DC /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
