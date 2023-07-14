@@ -25,6 +25,7 @@
 		69088ECF2A6180E800BC7CD7 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 69088ECE2A6180E800BC7CD7 /* AlamofireImage */; };
 		69088ED22A6185A800BC7CD7 /* CVCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 69088ED12A6185A800BC7CD7 /* CVCalendar */; };
 		69088ED52A618A7D00BC7CD7 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 69088ED42A618A7D00BC7CD7 /* Cosmos */; };
+		69088ED82A618B7A00BC7CD7 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 69088ED72A618B7A00BC7CD7 /* Reachability */; };
 		694CFDC92A443EC6005AF8DC /* BugFixAppCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDC82A443EC6005AF8DC /* BugFixAppCenterApp.swift */; };
 		694CFDCB2A443EC6005AF8DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDCA2A443EC6005AF8DC /* ContentView.swift */; };
 		694CFDCD2A443EC7005AF8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CFDCC2A443EC7005AF8DC /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 				69088EC62A617D2700BC7CD7 /* AirshipMessageCenter in Frameworks */,
 				694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */,
 				69088EC42A617D2700BC7CD7 /* AirshipLocation in Frameworks */,
+				69088ED82A618B7A00BC7CD7 /* Reachability in Frameworks */,
 				69088E7B2A61401C00BC7CD7 /* GoogleSignInSwift in Frameworks */,
 				69088EBA2A617D2700BC7CD7 /* AirshipAccengage in Frameworks */,
 				69088EC82A617D2700BC7CD7 /* AirshipNotificationContentExtension in Frameworks */,
@@ -153,6 +155,7 @@
 				69088ECE2A6180E800BC7CD7 /* AlamofireImage */,
 				69088ED12A6185A800BC7CD7 /* CVCalendar */,
 				69088ED42A618A7D00BC7CD7 /* Cosmos */,
+				69088ED72A618B7A00BC7CD7 /* Reachability */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -194,6 +197,7 @@
 				69088ECD2A6180E800BC7CD7 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 				69088ED02A6185A800BC7CD7 /* XCRemoteSwiftPackageReference "CVCalendar" */,
 				69088ED32A618A7D00BC7CD7 /* XCRemoteSwiftPackageReference "Cosmos" */,
+				69088ED62A618B7A00BC7CD7 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -489,6 +493,14 @@
 				minimumVersion = 23.0.0;
 			};
 		};
+		69088ED62A618B7A00BC7CD7 /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
@@ -605,6 +617,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 69088ED32A618A7D00BC7CD7 /* XCRemoteSwiftPackageReference "Cosmos" */;
 			productName = Cosmos;
+		};
+		69088ED72A618B7A00BC7CD7 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088ED62A618B7A00BC7CD7 /* XCRemoteSwiftPackageReference "Reachability.swift" */;
+			productName = Reachability;
 		};
 		694CFDD72A443F48005AF8DC /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
