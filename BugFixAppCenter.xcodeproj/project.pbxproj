@@ -54,6 +54,7 @@
 		69088F102A61904E00BC7CD7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F0F2A61904E00BC7CD7 /* FirebaseStorage */; };
 		69088F122A61904E00BC7CD7 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F112A61904E00BC7CD7 /* FirebaseStorageCombine-Community */; };
 		69088F152A61A03400BC7CD7 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F142A61A03400BC7CD7 /* Mixpanel */; };
+		690E8FAE2A61AAE50076EDDF /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 690E8FAD2A61AAE50076EDDF /* AppsFlyerLib */; };
 		694CFDC92A443EC6005AF8DC /* BugFixAppCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDC82A443EC6005AF8DC /* BugFixAppCenterApp.swift */; };
 		694CFDCB2A443EC6005AF8DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDCA2A443EC6005AF8DC /* ContentView.swift */; };
 		694CFDCD2A443EC7005AF8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CFDCC2A443EC7005AF8DC /* Assets.xcassets */; };
@@ -82,6 +83,7 @@
 				69088ED52A618A7D00BC7CD7 /* Cosmos in Frameworks */,
 				69088E762A613D5C00BC7CD7 /* Kingfisher in Frameworks */,
 				69088F102A61904E00BC7CD7 /* FirebaseStorage in Frameworks */,
+				690E8FAE2A61AAE50076EDDF /* AppsFlyerLib in Frameworks */,
 				69088ED22A6185A800BC7CD7 /* CVCalendar in Frameworks */,
 				69088EE02A61904E00BC7CD7 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				6958717E2A6132A300D304CD /* Tabman in Frameworks */,
@@ -240,6 +242,7 @@
 				69088F0F2A61904E00BC7CD7 /* FirebaseStorage */,
 				69088F112A61904E00BC7CD7 /* FirebaseStorageCombine-Community */,
 				69088F142A61A03400BC7CD7 /* Mixpanel */,
+				690E8FAD2A61AAE50076EDDF /* AppsFlyerLib */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -284,6 +287,7 @@
 				69088ED62A618B7A00BC7CD7 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
 				69088EDC2A61904E00BC7CD7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				69088F132A61A03400BC7CD7 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+				690E8FAC2A61AAE50076EDDF /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -603,6 +607,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		690E8FAC2A61AAE50076EDDF /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 		694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
@@ -864,6 +876,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 69088F132A61A03400BC7CD7 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
 			productName = Mixpanel;
+		};
+		690E8FAD2A61AAE50076EDDF /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 690E8FAC2A61AAE50076EDDF /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
 		};
 		694CFDD72A443F48005AF8DC /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
