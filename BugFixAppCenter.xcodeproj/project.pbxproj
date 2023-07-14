@@ -53,6 +53,7 @@
 		69088F0E2A61904E00BC7CD7 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F0D2A61904E00BC7CD7 /* FirebaseRemoteConfigSwift */; };
 		69088F102A61904E00BC7CD7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F0F2A61904E00BC7CD7 /* FirebaseStorage */; };
 		69088F122A61904E00BC7CD7 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F112A61904E00BC7CD7 /* FirebaseStorageCombine-Community */; };
+		69088F152A61A03400BC7CD7 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F142A61A03400BC7CD7 /* Mixpanel */; };
 		694CFDC92A443EC6005AF8DC /* BugFixAppCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDC82A443EC6005AF8DC /* BugFixAppCenterApp.swift */; };
 		694CFDCB2A443EC6005AF8DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDCA2A443EC6005AF8DC /* ContentView.swift */; };
 		694CFDCD2A443EC7005AF8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CFDCC2A443EC7005AF8DC /* Assets.xcassets */; };
@@ -99,6 +100,7 @@
 				69088EFE2A61904E00BC7CD7 /* FirebaseFunctionsCombine-Community in Frameworks */,
 				694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */,
 				69088EC42A617D2700BC7CD7 /* AirshipLocation in Frameworks */,
+				69088F152A61A03400BC7CD7 /* Mixpanel in Frameworks */,
 				69088EF82A61904E00BC7CD7 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				69088EFA2A61904E00BC7CD7 /* FirebaseFirestoreSwift in Frameworks */,
 				69088ED82A618B7A00BC7CD7 /* Reachability in Frameworks */,
@@ -237,6 +239,7 @@
 				69088F0D2A61904E00BC7CD7 /* FirebaseRemoteConfigSwift */,
 				69088F0F2A61904E00BC7CD7 /* FirebaseStorage */,
 				69088F112A61904E00BC7CD7 /* FirebaseStorageCombine-Community */,
+				69088F142A61A03400BC7CD7 /* Mixpanel */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -280,6 +283,7 @@
 				69088ED32A618A7D00BC7CD7 /* XCRemoteSwiftPackageReference "Cosmos" */,
 				69088ED62A618B7A00BC7CD7 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
 				69088EDC2A61904E00BC7CD7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				69088F132A61A03400BC7CD7 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -591,6 +595,14 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		69088F132A61A03400BC7CD7 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
@@ -847,6 +859,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 69088EDC2A61904E00BC7CD7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseStorageCombine-Community";
+		};
+		69088F142A61A03400BC7CD7 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69088F132A61A03400BC7CD7 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
 		};
 		694CFDD72A443F48005AF8DC /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
