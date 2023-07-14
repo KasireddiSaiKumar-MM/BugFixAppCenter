@@ -17,6 +17,15 @@
         "revision" : "1aed8f7dc79ce8e674c61e430ef51ca3db18cea9",
         "version" : "1.11.1"
       }
+    },
+    {
+      "identity" : "pulsator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shu223/Pulsator.git",
+      "state" : {
+        "revision" : "144e160aa9ff75de5ab88a91d8a2767942d97836",
+        "version" : "0.6.3"
+      }
     }
   ],
   "version" : 2
