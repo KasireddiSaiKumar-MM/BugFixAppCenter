@@ -15,6 +15,7 @@
 		694CFDDA2A443F48005AF8DC /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 694CFDD92A443F48005AF8DC /* AppCenterCrashes */; };
 		694CFDDC2A443F48005AF8DC /* AppCenterDistribute in Frameworks */ = {isa = PBXBuildFile; productRef = 694CFDDB2A443F48005AF8DC /* AppCenterDistribute */; };
 		6958717B2A61319500D304CD /* Pulsator in Frameworks */ = {isa = PBXBuildFile; productRef = 6958717A2A61319500D304CD /* Pulsator */; };
+		6958717E2A6132A300D304CD /* Tabman in Frameworks */ = {isa = PBXBuildFile; productRef = 6958717D2A6132A300D304CD /* Tabman */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6958717E2A6132A300D304CD /* Tabman in Frameworks */,
 				694CFDD82A443F48005AF8DC /* AppCenterAnalytics in Frameworks */,
 				694CFDDA2A443F48005AF8DC /* AppCenterCrashes in Frameworks */,
 				6958717B2A61319500D304CD /* Pulsator in Frameworks */,
@@ -96,6 +98,7 @@
 				694CFDD92A443F48005AF8DC /* AppCenterCrashes */,
 				694CFDDB2A443F48005AF8DC /* AppCenterDistribute */,
 				6958717A2A61319500D304CD /* Pulsator */,
+				6958717D2A6132A300D304CD /* Tabman */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -128,6 +131,7 @@
 			packageReferences = (
 				694CFDD62A443F48005AF8DC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */,
 				695871792A61319500D304CD /* XCRemoteSwiftPackageReference "Pulsator" */,
+				6958717C2A6132A300D304CD /* XCRemoteSwiftPackageReference "Tabman" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -375,6 +379,14 @@
 				minimumVersion = 0.6.3;
 			};
 		};
+		6958717C2A6132A300D304CD /* XCRemoteSwiftPackageReference "Tabman" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uias/Tabman.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -397,6 +409,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 695871792A61319500D304CD /* XCRemoteSwiftPackageReference "Pulsator" */;
 			productName = Pulsator;
+		};
+		6958717D2A6132A300D304CD /* Tabman */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6958717C2A6132A300D304CD /* XCRemoteSwiftPackageReference "Tabman" */;
+			productName = Tabman;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
