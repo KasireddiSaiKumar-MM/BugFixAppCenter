@@ -54,10 +54,7 @@
 		69088F102A61904E00BC7CD7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F0F2A61904E00BC7CD7 /* FirebaseStorage */; };
 		69088F122A61904E00BC7CD7 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F112A61904E00BC7CD7 /* FirebaseStorageCombine-Community */; };
 		69088F152A61A03400BC7CD7 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 69088F142A61A03400BC7CD7 /* Mixpanel */; };
-		690E90072A61C7FB0076EDDF /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = 690E90062A61C7FB0076EDDF /* FacebookAEM */; };
-		690E90092A61C7FB0076EDDF /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 690E90082A61C7FB0076EDDF /* FacebookBasics */; };
 		690E900B2A61C7FB0076EDDF /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 690E900A2A61C7FB0076EDDF /* FacebookCore */; };
-		690E900D2A61C7FB0076EDDF /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 690E900C2A61C7FB0076EDDF /* FacebookGamingServices */; };
 		690E900F2A61C7FB0076EDDF /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 690E900E2A61C7FB0076EDDF /* FacebookLogin */; };
 		690E90112A61C7FB0076EDDF /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 690E90102A61C7FB0076EDDF /* FacebookShare */; };
 		694CFDC92A443EC6005AF8DC /* BugFixAppCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CFDC82A443EC6005AF8DC /* BugFixAppCenterApp.swift */; };
@@ -94,14 +91,12 @@
 				6958717E2A6132A300D304CD /* Tabman in Frameworks */,
 				69088EC02A617D2700BC7CD7 /* AirshipCore in Frameworks */,
 				69088EE62A61904E00BC7CD7 /* FirebaseAppCheck in Frameworks */,
-				690E90092A61C7FB0076EDDF /* FacebookBasics in Frameworks */,
 				69088EC22A617D2700BC7CD7 /* AirshipExtendedActions in Frameworks */,
 				69088ECA2A617D2700BC7CD7 /* AirshipNotificationServiceExtension in Frameworks */,
 				69088EF62A61904E00BC7CD7 /* FirebaseFirestore in Frameworks */,
 				69088F042A61904E00BC7CD7 /* FirebaseInstallations in Frameworks */,
 				69088EEA2A61904E00BC7CD7 /* FirebaseAuth in Frameworks */,
 				69088EBC2A617D2700BC7CD7 /* AirshipAutomation in Frameworks */,
-				690E90072A61C7FB0076EDDF /* FacebookAEM in Frameworks */,
 				69088EB72A61747F00BC7CD7 /* DGCharts in Frameworks */,
 				69088EBE2A617D2700BC7CD7 /* AirshipChat in Frameworks */,
 				69088EE42A61904E00BC7CD7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
@@ -132,7 +127,6 @@
 				69088F122A61904E00BC7CD7 /* FirebaseStorageCombine-Community in Frameworks */,
 				6958717B2A61319500D304CD /* Pulsator in Frameworks */,
 				69088F0C2A61904E00BC7CD7 /* FirebaseRemoteConfig in Frameworks */,
-				690E900D2A61C7FB0076EDDF /* FacebookGamingServices in Frameworks */,
 				69088EEE2A61904E00BC7CD7 /* FirebaseCrashlytics in Frameworks */,
 				694CFDDC2A443F48005AF8DC /* AppCenterDistribute in Frameworks */,
 				690E900F2A61C7FB0076EDDF /* FacebookLogin in Frameworks */,
@@ -252,10 +246,7 @@
 				69088F0F2A61904E00BC7CD7 /* FirebaseStorage */,
 				69088F112A61904E00BC7CD7 /* FirebaseStorageCombine-Community */,
 				69088F142A61A03400BC7CD7 /* Mixpanel */,
-				690E90062A61C7FB0076EDDF /* FacebookAEM */,
-				690E90082A61C7FB0076EDDF /* FacebookBasics */,
 				690E900A2A61C7FB0076EDDF /* FacebookCore */,
-				690E900C2A61C7FB0076EDDF /* FacebookGamingServices */,
 				690E900E2A61C7FB0076EDDF /* FacebookLogin */,
 				690E90102A61C7FB0076EDDF /* FacebookShare */,
 			);
@@ -892,25 +883,10 @@
 			package = 69088F132A61A03400BC7CD7 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
 			productName = Mixpanel;
 		};
-		690E90062A61C7FB0076EDDF /* FacebookAEM */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 690E90052A61C7FB0076EDDF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookAEM;
-		};
-		690E90082A61C7FB0076EDDF /* FacebookBasics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 690E90052A61C7FB0076EDDF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookBasics;
-		};
 		690E900A2A61C7FB0076EDDF /* FacebookCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 690E90052A61C7FB0076EDDF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookCore;
-		};
-		690E900C2A61C7FB0076EDDF /* FacebookGamingServices */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 690E90052A61C7FB0076EDDF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookGamingServices;
 		};
 		690E900E2A61C7FB0076EDDF /* FacebookLogin */ = {
 			isa = XCSwiftPackageProductDependency;
