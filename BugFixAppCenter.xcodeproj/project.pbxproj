@@ -65,6 +65,7 @@
 		6958717E2A6132A300D304CD /* Tabman in Frameworks */ = {isa = PBXBuildFile; productRef = 6958717D2A6132A300D304CD /* Tabman */; };
 		69646C0A2A6265D600419F2A /* AWSCore in Frameworks */ = {isa = PBXBuildFile; productRef = 69646C092A6265D600419F2A /* AWSCore */; };
 		69646C0C2A6265D600419F2A /* AWSS3 in Frameworks */ = {isa = PBXBuildFile; productRef = 69646C0B2A6265D600419F2A /* AWSS3 */; };
+		6976DD462A68241900686922 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 6976DD452A68241900686922 /* AppsFlyerLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +117,7 @@
 				69088F022A61904E00BC7CD7 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
 				69088F0E2A61904E00BC7CD7 /* FirebaseRemoteConfigSwift in Frameworks */,
 				69088EFC2A61904E00BC7CD7 /* FirebaseFunctions in Frameworks */,
+				6976DD462A68241900686922 /* AppsFlyerLib in Frameworks */,
 				69088F002A61904E00BC7CD7 /* FirebaseInAppMessaging-Beta in Frameworks */,
 				69088EE22A61904E00BC7CD7 /* FirebaseAnalyticsSwift in Frameworks */,
 				69088E812A6141C100BC7CD7 /* NYTPhotoViewer in Frameworks */,
@@ -246,6 +248,7 @@
 				69088F142A61A03400BC7CD7 /* Mixpanel */,
 				69646C092A6265D600419F2A /* AWSCore */,
 				69646C0B2A6265D600419F2A /* AWSS3 */,
+				6976DD452A68241900686922 /* AppsFlyerLib */,
 			);
 			productName = BugFixAppCenter;
 			productReference = 694CFDC52A443EC6005AF8DC /* BugFixAppCenter.app */;
@@ -291,6 +294,7 @@
 				69088EDC2A61904E00BC7CD7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				69088F132A61A03400BC7CD7 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
 				69646C082A6265D600419F2A /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */,
+				6976DD442A68241900686922 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
 			);
 			productRefGroup = 694CFDC62A443EC6005AF8DC /* Products */;
 			projectDirPath = "";
@@ -642,6 +646,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		6976DD442A68241900686922 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.12.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -914,6 +926,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 69646C082A6265D600419F2A /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
 			productName = AWSS3;
+		};
+		6976DD452A68241900686922 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6976DD442A68241900686922 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
